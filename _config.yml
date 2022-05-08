@@ -6,7 +6,7 @@ description: illiterates' studio
 
 # User settings
 username: 目不识丁工作室
-user_description: 承接各种NLP项目，包括但不限于文本分类、情感分析、命名体识别、信息检索、对话系统、摘要生成、多模态分析等。
+user_description: 承接各种NLP和CV项目，包括但不限于文本分类、情感分析、命名体识别、信息检索、对话系统、摘要生成、图像识别、目标检测、多模态分析等。
 user_title: illiterates' studio
 email: victor-he@qq.com
 # twitter_username: lorem_ipsum
