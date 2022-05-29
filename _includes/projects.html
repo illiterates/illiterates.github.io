@@ -1,6 +1,7 @@
 <div class="user-details">
   <h1> Featured Projects </h1>
 </div>
+
 <div class="user-projects">
   <div class="images-right">
     <img alt="bert" src="{{ "/assets/img/bert.png" | prepend: site.baseurl }}" />
@@ -14,6 +15,7 @@
     <a class="project-link" href="https://github.com/illiterate/BertClassifier">Check it out</a>
   </div>
 </div>
+
 <div class="user-projects">
   <div class="images-left">
     <img alt="lstm" src="{{ "/assets/img/lstm.png" | prepend: site.baseurl }}" />
@@ -25,5 +27,33 @@
     </ul>
     <p>基于PyTorch的LSTM中文文本分类模型，在部分THUCNews数据集上达到了80%的准确率。</p>
     <a class="project-link" href="https://illiterate.top/articles/LSTMClassifier/">Check it out</a>
+  </div>
+</div>
+
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="transformer" src="{{ "/assets/img/transformer.png" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3> Machine Translation </h3>
+    <ul>
+      <li> 机器翻译 </li>
+    </ul>
+    <p>基于transformer架构的英文-中文翻译模型，在Tatoeba-test.eng.zho数据集上的BLEU值达到了31.4。</p>
+    <a class="project-link" href="#">Check it out</a>
+  </div>
+</div>
+
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="question_answering" src="{{ "/assets/img/question_answering.png" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3> Question Answering </h3>
+    <ul>
+      <li> 问答系统 </li>
+    </ul>
+    <p>基于BERT模型实现的抽取式问答系统，在SQuAD数据集上F1值达到了88.67的性能。</p>
+    <a class="project-link" href="#">Check it out</a>
   </div>
 </div>
