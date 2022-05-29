@@ -4,23 +4,9 @@
 
 <div class="user-projects">
   <div class="images-right">
-    <img alt="bert" src="{{ "/assets/img/bert.png" | prepend: site.baseurl }}" />
-  </div>
-  <div class="contents">
-    <h3> BERT Classifier </h3>
-    <ul>
-      <li> BERT文本分类 </li>
-    </ul>
-    <p>基于PyTorch的BERT中文文本分类模型，利用了transformers中的BertModel，对部分THUCNews数据集进行了文本分类，在验证集上的最优Acc达到了88%。</p>
-    <a class="project-link" href="https://github.com/illiterate/BertClassifier">Check it out</a>
-  </div>
-</div>
-
-<div class="user-projects">
-  <div class="images-left">
     <img alt="lstm" src="{{ "/assets/img/lstm.png" | prepend: site.baseurl }}" />
   </div>
-  <div class="contents-right">
+  <div class="contents-left">
     <h3> LSTM Classifier </h3>
     <ul>
       <li> LSTM文本分类 </li>
@@ -31,8 +17,36 @@
 </div>
 
 <div class="user-projects">
+  <div class="images-left">
+    <img alt="bert" src="{{ "/assets/img/bert.png" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3> BERT Classifier </h3>
+    <ul>
+      <li> BERT文本分类 </li>
+    </ul>
+    <p>基于PyTorch的BERT中文文本分类模型，利用了transformers中的BertModel，对部分THUCNews数据集进行了文本分类，在验证集上的最优Acc达到了88%。</p>
+    <a class="project-link" href="https://github.com/illiterate/BertClassifier">Check it out</a>
+  </div>
+</div>
+
+<div class="user-projects">
   <div class="images-right">
-    <img alt="transformer" src="{{ "/assets/img/transformer.png" | prepend: site.baseurl }}" width="80%" height="80%" />
+    <img alt="question_answering" src="{{ "/assets/img/question_answering.png" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-left">
+    <h3> Question Answering </h3>
+    <ul>
+      <li> 问答系统 </li>
+    </ul>
+    <p>基于BERT模型实现的抽取式问答系统，在SQuAD数据集上F1值达到了88.67的性能。</p>
+    <a class="project-link" href="#">Check it out</a>
+  </div>
+</div>
+
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="transformer" src="{{ "/assets/img/transformer.png" | prepend: site.baseurl }}" />
   </div>
   <div class="contents-right">
     <h3> Machine Translation </h3>
@@ -44,16 +58,4 @@
   </div>
 </div>
 
-<div class="user-projects">
-  <div class="images-left">
-    <img alt="question_answering" src="{{ "/assets/img/question_answering.png" | prepend: site.baseurl }}" width="80%" height="80%" />
-  </div>
-  <div class="contents-right">
-    <h3> Question Answering </h3>
-    <ul>
-      <li> 问答系统 </li>
-    </ul>
-    <p>基于BERT模型实现的抽取式问答系统，在SQuAD数据集上F1值达到了88.67的性能。</p>
-    <a class="project-link" href="#">Check it out</a>
-  </div>
-</div>
+
